@@ -1,0 +1,26 @@
+<div class="container" style="margin-top: 15px;">
+    <div class="row" style="padding:10px;">
+        <button [routerLink]="['']" type="button" class="btn btn-primary mt-4 ">
+          Voltar
+      </button>
+    </div>
+    <table class="table table-striped" *ngIf='resProdutos && resProdutos.length>0'>
+        <thead>
+            <tr>
+                <th scope="col">Data entrega</th>
+                <th scope="col">Nome do produto</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Valor</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let res of resProdutos">
+                <td>{{res.dataEntrega | date :'dd/MM/yyyy'}}</td>
+                <td>{{res.nomeProduto}}</td>
+                <td>{{res.quantidade}}</td>
+                <td>{{res.valorUnitario }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

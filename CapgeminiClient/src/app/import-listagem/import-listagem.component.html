@@ -1,0 +1,45 @@
+<div class="container" style="margin-top: 15px;">
+    <div class="alert alert-danger" if="erroAlert" role="alert" *ngIf='errosImportacao && errosImportacao.length>0'>
+        <strong>FAVOR CORRIJA AS INFORMAÇÕES NO ARQUIVO PARA PODER REALIZAR A IMPORTAÇÃO:</strong>
+        <ul *ngFor="let error of errosImportacao">
+            <li>{{error}}</li>
+        </ul>
+    </div>
+    <div class="row" style="padding-left: 15px;">
+        <div class="form-group col-8">
+            <input class="btn btn-outline-secondary col-12" type="file" id="file" (change)="handleFileInput($event.target.files)">
+        </div>
+        <div style="padding-left: 30px;padding-top: 8px;">
+            <button (click)="uploadFileToActivity()" type="button" class="btn btn-primary btn-sm text-center">
+          Enviar
+      </button>
+        </div>
+
+    </div>
+    <table class="table table-striped" *ngIf='resLotes && resLotes.length>0'>
+        <thead>
+            <tr>
+                <th scope="col">Lote</th>
+                <th scope="col">Data Importação</th>
+                <th scope="col">Quantidade total</th>
+                <th scope="col">Valor total</th>
+                <th scope="col">Entrega mais antiga</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let res of resLotes">
+                <th scope="row">{{res.idImportacao}}</th>
+                <td>{{res.dataImportacao | date :'dd/MM/yyyy'}}</td>
+                <td>{{res.quantidadeItens}}</td>
+                <td>{{res.valorTotal}}</td>
+                <td>{{res.dataMenorEntrega | date :'dd/MM/yyyy'}}</td>
+                <td>
+                    <button [routerLink]="['/produtos',res.idImportacao]" type="button" class="btn btn-primary " style="text-align: right;">
+                    Detalhar lote
+                </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,14 @@
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\bin\Debug\netcoreapp2.2\Capgeminiapi.deps.json
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\bin\Debug\netcoreapp2.2\Capgeminiapi.runtimeconfig.json
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\bin\Debug\netcoreapp2.2\Capgeminiapi.runtimeconfig.dev.json
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\bin\Debug\netcoreapp2.2\Capgeminiapi.dll
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\obj\Debug\netcoreapp2.2\Capgeminiapi.csprojAssemblyReference.cache
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\obj\Debug\netcoreapp2.2\Capgeminiapi.csproj.CoreCompileInputs.cache
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\obj\Debug\netcoreapp2.2\Capgeminiapi.RazorAssemblyInfo.cache
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\obj\Debug\netcoreapp2.2\Capgeminiapi.RazorAssemblyInfo.cs
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\obj\Debug\netcoreapp2.2\Capgeminiapi.AssemblyInfoInputs.cache
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\obj\Debug\netcoreapp2.2\Capgeminiapi.AssemblyInfo.cs
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\obj\Debug\netcoreapp2.2\Capgeminiapi.RazorTargetAssemblyInfo.cache
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\bin\Debug\netcoreapp2.2\Capgeminiapi.pdb
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\obj\Debug\netcoreapp2.2\Capgeminiapi.dll
+E:\capgemini\testeCapgemini\Capgeminiapi\Capgeminiapi\obj\Debug\netcoreapp2.2\Capgeminiapi.pdb
